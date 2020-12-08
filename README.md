@@ -2,7 +2,7 @@
 An android app that notifies the students in Rotberg high school when a lesson is canceled for them  in real-time (I made it in 10th grade).
 
 Before I wrote this app, in order to check for schedule changes in our school, one had to enter the changes website and check it manually.
-I have always wanted to be notified when a lesson is canceled _in real-time_ and _automatically_ so I started working on it...
+I have always wanted to be notified when a lesson is canceled *in real-time* and *automatically* so I started working on it...
 
 Long story short, I contacted the schedule changes company and asked for their API, wrote a code in node.js that checks it all the time and sends this app notifications using 
 Firebase Cloud Messaging.
@@ -13,7 +13,7 @@ It reflects in the code...
 
 Some screenshots:
 
-![alt text](screenshots/notifications.jpg)
+![alt text](screenshots/notifications.jpg | width=100)
 ![alt text](screenshots/home1.jpeg)
 
 In the beginning of 11th grade, I updated this app and added the following things:
