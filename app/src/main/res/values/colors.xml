@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#0000FF</color>-->
+    <color name="colorPrimary">#001964</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="violet">#9400D3</color>
+    <color name="indigo">#4B0082</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="darkRed">#CF0202</color>
+
+
+    <color name="defaultBgColor">#FAFAFA</color>
+    <color name="pickedColor">#00FF00</color>
+    <!--<color name="pickedColor">#04DA04</color>-->
+
+    <color name="strokeColor">#303030</color>
+
+    <color name="rowBtnColor">#001964</color>
+    <color name="rowBtnColorOnclick">#FFFFFF</color>
+
+    <!--<color name="rowBtnStrokeColor">#000000</color>-->
+    <color name="rowBtnStrokeColor">#001964</color>
+
+    <color name="currentLessonColor">#FFFF00</color>
+
+
+
+</resources>

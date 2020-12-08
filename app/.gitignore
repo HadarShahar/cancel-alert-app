@@ -1,0 +1,8 @@
+/build
+
+# fireabse credentials
+/google-services.json
+/google-services2.json
+
+# the details of Rotberg high school API
+/src/main/java/com/myapp/cancelalert/RotbergAPI.java

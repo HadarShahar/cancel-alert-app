@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a public name"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <Spinner
+        android:id="@+id/classNumberSpinner"
+        android:layout_width="81dp"
+        android:layout_height="46dp"
+
+        android:background="@drawable/spinner_shape"
+
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+
+
+    <!--android:background="@android:drawable/btn_dropdown"-->
+    <!--android:gravity="center"-->
+    <!--android:spinnerMode="dropdown"-->
+    <Spinner
+        android:id="@+id/classSpinner"
+        android:layout_width="81dp"
+        android:layout_height="46dp"
+
+        android:background="@drawable/spinner_shape"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="19dp"
+        android:layout_height="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+        app:srcCompat="@drawable/down_arrow" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="19dp"
+        android:layout_height="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="347dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Enter your class number: "-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="30sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.023" />-->
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7937869727957992/9423516226"
+        ads:layout_constraintHorizontal_bias="0.56"
+        ads:layout_constraintVertical_bias="0.004"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+
+
+
+
+    <!--<Button-->
+    <!--android:id="@+id/update"-->
+    <!--android:layout_width="110dp"-->
+    <!--android:layout_height="46dp"-->
+    <!--android:background="@drawable/rounded_shape"-->
+    <!--android:text="עדכן"-->
+    <!--android:textColor="#FFFFFF"-->
+    <!--android:textSize="24sp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.109"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.375" />-->
+
+
+
+    <!--********************************************************** android:visibility="invisible"-->
+    <!--style="@style/AppTheme.RoundedCornerMaterialButton"-->
+
+    <!--<Button-->
+        <!--android:id="@+id/cancelAuto"-->
+        <!--android:layout_width="339dp"-->
+        <!--android:layout_height="59dp"-->
+        <!--android:text="cancel auto checking"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.652"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.544" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/showInputNumber"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="61dp"-->
+        <!--android:text="#"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.131"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.023" />-->
+
+    <!-- **************************************************************************************** -->
+
+    <!--<Button-->
+        <!--android:id="@+id/saveBtn"-->
+        <!--android:layout_width="104dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="save"-->
+        <!--android:textSize="24sp"-->
+        <!--android:visibility="gone"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.853"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.951" />-->
+        <!--<Button-->
+        <!--android:id="@+id/goToChat"-->
+        <!--android:layout_width="317dp"-->
+        <!--android:layout_height="61dp"-->
+        <!--android:text="go to chat room"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.521"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.84" />-->
+    <!-- **************************************************************************************** -->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/sendNotification"-->
+        <!--android:layout_width="116dp"-->
+        <!--android:layout_height="41dp"-->
+        <!--android:text="test"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.521"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.722" />-->
+
+    <Button
+        android:id="@+id/lessonsSelectionBtn"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rounded_shape"
+        android:text="בחירת שיעורים"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <!--<Button-->
+        <!--android:id="@+id/rightBtnRow"-->
+        <!--android:layout_width="115dp"-->
+        <!--android:layout_height="47dp"-->
+        <!--android:background="@drawable/right_btn_shape"-->
+        <!--android:text="לוח ביטולים"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="18sp"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.888"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.631" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/leftBtnRow"-->
+        <!--android:layout_width="115dp"-->
+        <!--android:layout_height="47dp"-->
+        <!--android:background="@drawable/left_btn_shape"-->
+        <!--android:text="השיעור הבא"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="18sp"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.111"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.631" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/middleBtnRow"-->
+        <!--android:layout_width="115dp"-->
+        <!--android:layout_height="47dp"-->
+        <!--android:background="@drawable/middle_btn_shape"-->
+        <!--android:text="השיעור הנוכחי"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="18sp"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.631" />-->
+
+    <Button
+        android:id="@+id/viewWebsite"
+        android:layout_width="342dp"
+        android:layout_height="104dp"
+        android:background="@drawable/rounded_shape_blue"
+        android:text="למעבר לאתר רוטברג"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <TextView
+        android:id="@+id/contentTitle"
+        android:layout_width="278dp"
+        android:layout_height="58dp"
+        android:text="טוען..."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/currentLessonClick"-->
+        <!--android:layout_width="122dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:clickable="true"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.501"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.655" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/showChangesClick"-->
+        <!--android:layout_width="104dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:clickable="true"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.947"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.655" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/currentLessonClick3"-->
+        <!--android:layout_width="22dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.316"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.655" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/currentLessonClick2"-->
+        <!--android:layout_width="22dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.686"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.655" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/nextLessonClick"-->
+        <!--android:layout_width="107dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:clickable="true"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.052"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.655" />-->
+
+    <TextView
+        android:id="@+id/changesView"
+        android:layout_width="354dp"
+        android:layout_height="207dp"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/selectedLessonsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+
+    <!--======================== Bottom Navigation Bar ========================-->
+
+    <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/bottom_navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--app:menu="@menu/bottom_nav_menu"-->
+        <!--app:itemBackground="@color/colorPrimary"-->
+        <!--app:itemIconTint="@android:color/white"-->
+        <!--app:itemTextColor="@android:color/white" />-->
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+    <!--======================================================================-->
+
+</android.support.constraint.ConstraintLayout>

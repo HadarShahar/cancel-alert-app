@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bell_icon"
+        android:enabled="true"
+        android:icon="@drawable/bell_icon"
+        android:title="לוח צלצולים"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/changes_icon"
+        android:enabled="true"
+        android:icon="@drawable/changes_icon"
+        android:title="שינויי מערכת"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/schedule_icon"
+        android:enabled="true"
+        android:icon="@drawable/schedule_icon"
+        android:title="מערכת שעות"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+        <!--android:id="@+id/current_lesson_icon"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/current_lesson_icon"-->
+        <!--android:title="השיעור הנוכחי"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/next_lesson_icon"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/next_lesson_icon"-->
+        <!--android:title="השיעור הבא"-->
+        <!--app:showAsAction="ifRoom" />-->
+</menu>

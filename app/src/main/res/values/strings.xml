@@ -1,0 +1,26 @@
+<resources>
+    <!--<string name="app_name">Cancel Alert</string>-->
+    <string name="app_name">שינויי מערכת רוטברג</string>
+
+    <string name="showChangesLink"><u>לוח ביטולים</u></string>
+    <string name="currentLessonLink"><u>השיעור הנוכחי</u></string>
+    <string name="nextLessonLink"><u>השיעור הבא</u></string>
+    <string name="title_activity_schedule_table">scheduleTable</string>
+<!--    <string name="tab_text_1">ראשון</string>-->
+<!--    <string name="tab_text_2">שני</string>-->
+<!--    <string name="tab_text_3">שלישי</string>-->
+<!--    <string name="tab_text_4">רביעי</string>-->
+<!--    <string name="tab_text_5">חמישי</string>-->
+<!--    <string name="tab_text_6">שישי</string>-->
+    <string name="tab_text_1">יום א</string>
+    <string name="tab_text_2">יום ב</string>
+    <string name="tab_text_3">יום ג</string>
+    <string name="tab_text_4">יום ד</string>
+    <string name="tab_text_5">יום ה</string>
+    <string name="tab_text_6">יום ו</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>
