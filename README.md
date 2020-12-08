@@ -13,10 +13,7 @@ It reflects in the code...
 
 Some screenshots:
 
-<img src="screenshots/notifications.jpg" width="300">
-
-![alt text](screenshots/notifications.jpg)
-![alt text](screenshots/home1.jpeg)
+<img src="screenshots/notifications.jpg" width="400"><img src="screenshots/home1.jpg" width="400">
 
 In the beginning of 11th grade, I updated this app and added the following things:
 - The ability to select specific lessons that you learn (there are different study groups inside each class)
