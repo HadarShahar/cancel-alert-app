@@ -13,7 +13,7 @@ It reflects in the code...
 
 Some screenshots:
 
-<img src="screenshots/notifications.jpg" width="100">
+<img src="screenshots/notifications.jpg" width="300">
 
 ![alt text](screenshots/notifications.jpg)
 ![alt text](screenshots/home1.jpeg)
