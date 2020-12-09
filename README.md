@@ -16,8 +16,8 @@ Some screenshots:
 <img src="screenshots/notifications.jpg" width="400"><img src="screenshots/home1.jpeg" width="400">
 
 In the beginning of 11th grade, I updated this app and added the following things:
-- The ability to select specific lessons that you learn (there are different study groups inside each class)
-- A view of your schedule table that corresponds to the lesson you selected.
+- The ability to select specific lessons that you learn (there are different study groups inside each class).
+- A view of your schedule table that corresponds to the lessons you selected.
 - Ringings board.
 
 <img src="screenshots/lesson_selection.jpeg" width="400"><img src="screenshots/schedule_table.jpeg" width="400">
